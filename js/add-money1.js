@@ -33,12 +33,12 @@ div.innerHTML = `<p class="font-bold text-xl">${addmoney} Taka is Donated for Fl
 
 document.getElementById('history-form').appendChild(div);
 
-const modal = document.getElementById('data-menu-1');
+const modal = document.getElementById('pop-up-1');
 modal.showModal()
 
 }
 else{
-   alert('failed to end the money')
+   alert('failed to send the money')
    
 }
   

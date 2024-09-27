@@ -31,12 +31,12 @@ document.getElementById('btn-add-money3').addEventListener('click', function(eve
     
     document.getElementById('history-form').appendChild(div);
     
-    const modal = document.getElementById('data-menu-3');
+    const modal = document.getElementById('pop-up-3');
 modal.showModal()
 
     }
     else{
-       alert('failed to end the money')
+       alert('failed to send the money')
        
     }
       
